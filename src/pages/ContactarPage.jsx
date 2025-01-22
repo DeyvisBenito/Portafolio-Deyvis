@@ -1,10 +1,13 @@
 import React from "react";
 import { Contactos } from "../components/contactarComponents/Contactos";
 import { FormCorreo } from "../components/contactarComponents/FormCorreo";
+import { Navbar } from "../components/Navbar";
+
 
 export const ContactarPage = () => {
   return (
     <>
+      <Navbar />
       <div className="container justify-content-center text-center">
         <h2>Hola, ¿Te gustaria contactarme? 😉</h2>
       </div>
@@ -16,7 +19,6 @@ export const ContactarPage = () => {
         <br />
         <h4>¡Escribeme un correo! Estoy a tus servicios.</h4>
         <FormCorreo />
-        
       </div>
       <hr />
     </>

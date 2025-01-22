@@ -4,10 +4,13 @@ import { HerramientasImg } from "../components/portafolioComponents/Herramientas
 import { DescripcionPersonal } from "../components/portafolioComponents/DescripcionPersonal";
 import { Habilidades } from "../components/portafolioComponents/Habilidades";
 import { TarjetaProyecto } from "../components/TarjetaProyecto";
+import { Navbar } from "../components/Navbar";
+
 
 export const PortafolioPage = () => {
   return (
     <>
+      <Navbar />
       <Presentacion />
       <HerramientasImg />
 
@@ -21,7 +24,7 @@ export const PortafolioPage = () => {
 
       <div className="container">
         <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center mb-5">
-          <TarjetaProyecto cantidad={3}/>
+          <TarjetaProyecto cantidad={3} />
         </div>
       </div>
     </>

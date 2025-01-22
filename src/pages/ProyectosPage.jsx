@@ -1,9 +1,12 @@
 import React from "react";
 import { TarjetaProyecto } from "../components/TarjetaProyecto";
+import { Navbar } from "../components/Navbar";
+
 
 export const ProyectosPage = () => {
   return (
     <>
+      <Navbar />
       <div className="container justify-content-center text-center">
         <h1>Mis proyectos</h1>
         <p>Aqui encontrarás más de los proyectos en los que he trabajado.</p>
