@@ -87,7 +87,7 @@ export const FormCorreo = () => {
           <div className="justify-content-end text-end mt-3">
             <input
               type="submit"
-              value="Enviar ✅"
+              value="Enviar ➡️"
               className="btn btn-primary "
             />
           </div>
