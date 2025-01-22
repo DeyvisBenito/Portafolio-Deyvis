@@ -4,7 +4,7 @@ export const Contactos = () => {
   return (
     <>
       <h5 className="ms-5">
-        <strong>Correo Electrónico:</strong> deyvisbenito@gmail.com 📧 
+        <strong>Correo Electrónico:</strong> deyvisbenito@gmail.com 📧
       </h5>
       <h5 className="ms-5">
         <strong>Teléfono:</strong> +502 46172036 📲
