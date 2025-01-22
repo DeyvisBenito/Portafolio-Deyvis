@@ -70,7 +70,7 @@ export const FormCorreo = () => {
   return (
     <div className="row justify-content-center">
       <div className="col-6 mt-2">
-        <form ref={form} onSubmit={sendEmail} className="field">
+        <form ref={form} onSubmit={sendEmail} className="field mb-3">
           <div>
             <Label nombre="Tu Nombre" />
             <Input tipo="text" name="user_name" placeholder="Nombre" />
@@ -90,6 +90,7 @@ export const FormCorreo = () => {
               className="btn btn-primary "
             />
           </div>
+          
         </form>
         <ToastContainer />
       </div>

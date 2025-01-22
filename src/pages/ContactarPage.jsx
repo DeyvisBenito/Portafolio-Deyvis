@@ -16,7 +16,9 @@ export const ContactarPage = () => {
         <br />
         <h4>¡Escribeme un correo! Estoy a tus servicios.</h4>
         <FormCorreo />
+        
       </div>
+      <hr />
     </>
   );
 };
